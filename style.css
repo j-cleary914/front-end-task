@@ -14,7 +14,7 @@ a {
 
 .linkText{
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: rgb(50,50,50);
     font-size: 1.2em;
 }
 
@@ -84,7 +84,6 @@ a {
 
     .linkText{
         font-family: 'Raleway', sans-serif;
-        color: black;
         margin: 4%;
         font-size: 1.3em;
     }
