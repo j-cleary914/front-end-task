@@ -1,3 +1,28 @@
 h4 {
-    color: red
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.titleText{
+    font-size: 2em;
+}
+
+.linkText{
+    font-family: 'Raleway', sans-serif;
+}
+
+.image {
+    width: 100%;
+}
+
+.wrapper1 {
+    
+}
+
+.wrapper2{
+
+}
+
+.wrapper3 {
+    background-color: rgb(240, 240, 240);
 }

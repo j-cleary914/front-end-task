@@ -11,16 +11,17 @@ $json = json_decode($jsondata,true);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Parsing JSON</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
-<div>
+<div class="wrapper1">
     <?php for ($x = 2; $x <= 10; $x++) { ?>
-    <div>
-        <div>
-            <h4><?php echo str_replace(" - MCV/Develop","",$json[$x]['attachments'][0]['title']); ?></h4>
-            <img src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
+    <div  class="wrapper2">
+        <div  class="wrapper3">
+            <h4 class="titleText"><?php echo str_replace(" - MCV/Develop","",$json[$x]['attachments'][0]['title']); ?></h4>
+            <img class="image" src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
             <br>
-            <a href="<?php echo ($json[$x]['attachments'][0]['title_link']); ?>">
+            <a class="linkText" href="<?php echo ($json[$x]['attachments'][0]['title_link']); ?>">
                 <?php echo str_replace("1","",$json[$x]['attachments'][0]['text']); ?>
             </a>
         </div>
