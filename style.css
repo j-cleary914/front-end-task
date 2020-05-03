@@ -24,19 +24,15 @@ a {
     border-radius: 15px;
 }
 
-.articlesWrapper {
-    background-color: rgb(240, 240, 240);
-}
-
 .articleCard {
     background-color: white;
-    border-radius: 15px;
     margin: 35px 0px;
+    padding: 10px 0px 0px;
 }
 
 .cardDiv {
     margin: 0% 5% 0%;
-    padding: 0% 0% 5%;
+    padding: 0% 0% 3%;
 }
 
 .header {
@@ -45,7 +41,7 @@ a {
     justify-content: space-between;
   }
 
-  .headerText {
+.headerText {
       font-size: 35px;
       color:white;
       margin: 25px;
@@ -55,8 +51,10 @@ a {
 
 @media (min-width: 768px){
     .articleCard {
-        /* background-color: lightskyblue; */
+        background-color: white;
+        border-radius: 15px;
         margin: 35px 10px;
+        padding: 0px;
     }
 
     a {
@@ -70,7 +68,8 @@ a {
 
     .articlesWrapper {
         max-width: 900px;
-    }
+        background-color: rgb(245, 245, 245);
+    }    
 
     .articleImage {
         width: 45%;
