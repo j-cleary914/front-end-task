@@ -87,4 +87,8 @@ a {
         margin: 4%;
         font-size: 1.3em;
     }
+
+    .titleText{
+        padding: 10px 0px 0px;
+    }
 }
