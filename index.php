@@ -26,7 +26,7 @@ $json = json_decode($jsondata,true);
         <div>
             <div class="articleCard">
                 <h4 class="titleText"><?php echo str_replace(" - MCV/Develop","",$json[$x]['attachments'][0]['title']); ?></h4>
-                <div class="testDiv">
+                <div class="cardDiv">
                     <img class="articleImage" src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
                     <br>
                     <a class="linkText" href="<?php echo ($json[$x]['attachments'][0]['title_link']); ?>">

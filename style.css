@@ -15,8 +15,7 @@ a {
 .linkText{
     font-family: 'Raleway', sans-serif;
     color: black;
-    margin: 4%;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .articleImage {
@@ -35,7 +34,10 @@ a {
     margin: 35px 0px;
 }
 
-
+.cardDiv {
+    margin: 0% 5% 0%;
+    padding: 0% 0% 5%;
+}
 
 .header {
     background-color: #2D2E83;
@@ -74,7 +76,17 @@ a {
         width: 45%;
     }
 
-    .testDiv {
+    .cardDiv {
         display: flex;
+        justify-content: space-between;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .linkText{
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        margin: 4%;
+        font-size: 1.3em;
     }
 }
