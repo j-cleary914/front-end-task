@@ -8,7 +8,7 @@ a {
     text-decoration:none;
 }
 
-a:hover {
+.linkText:hover {
     text-decoration: underline;
 }
 
@@ -31,4 +31,31 @@ a:hover {
 
 .articleCard {
     background-color: rgb(240, 240, 240);
+}
+
+@media (min-width: 768px){
+    .articleCard {
+        background-color: lightskyblue;
+    }
+
+    a {
+        margin: 2%;
+    }
+
+    .pageWrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper1 {
+        max-width: 900px;
+    }
+
+    .image {
+        width: 45%;
+    }
+
+    .testDiv {
+        display: flex;
+    }
 }
