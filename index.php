@@ -16,8 +16,8 @@ $json = json_decode($jsondata,true);
 <body>
 <div class="wrapper1">
     <?php for ($x = 2; $x <= 10; $x++) { ?>
-    <div  class="wrapper2">
-        <div  class="wrapper3">
+    <div  class="articleWrapper">
+        <div  class="articleCard">
             <h4 class="titleText"><?php echo str_replace(" - MCV/Develop","",$json[$x]['attachments'][0]['title']); ?></h4>
             <img class="image" src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
             <br>

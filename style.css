@@ -1,14 +1,20 @@
-h4 {
-    font-family: 'Raleway', sans-serif;
-    
+.titleText{
+    font-family: 'Raleway', sans-serif;   
+    font-size: 1.7em;
+    margin: 10px;
 }
 
-.titleText{
-    font-size: 2em;
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .linkText{
     font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
 .image {
@@ -19,10 +25,10 @@ h4 {
     
 }
 
-.wrapper2{
+.articleWrapper {
 
 }
 
-.wrapper3 {
+.articleCard {
     background-color: rgb(240, 240, 240);
 }
