@@ -17,7 +17,7 @@ a {
     color: black;
 }
 
-.image {
+.articleImage {
     width: 100%;
 }
 
@@ -51,7 +51,7 @@ a {
         max-width: 900px;
     }
 
-    .image {
+    .articleImage {
         width: 45%;
     }
 

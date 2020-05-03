@@ -14,23 +14,25 @@ $json = json_decode($jsondata,true);
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+
+
 <div class="pageWrapper">
     <div class="wrapper1">
         <?php for ($x = 2; $x <= 10; $x++) { ?>
-        <div  class="articleWrapper">
-            <div  class="articleCard">
+        <div>
+            <div class="articleCard">
                 <h4 class="titleText"><?php echo str_replace(" - MCV/Develop","",$json[$x]['attachments'][0]['title']); ?></h4>
                 <div class="testDiv">
-                    <img class="image" src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
+                    <img class="articleImage" src="<?php echo ($json[$x]['attachments'][0]['image_url']) ;?>">
                     <br>
                     <a class="linkText" href="<?php echo ($json[$x]['attachments'][0]['title_link']); ?>">
                         <?php echo str_replace("1","",$json[$x]['attachments'][0]['text']); ?>
                     </a>
-                <div>
+                </div>
             </div>
         </div>
         <?php } ?>
-    </div>
+    </div>  
 </div>
 </body>
 </html>
