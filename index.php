@@ -15,9 +15,13 @@ $json = json_decode($jsondata,true);
 </head>
 <body>
 
+<div class="header">
+  <h4 class="headerText">Insights News</h4>
+</div>
+
 
 <div class="pageWrapper">
-    <div class="wrapper1">
+    <div class="articlesWrapper">
         <?php for ($x = 2; $x <= 10; $x++) { ?>
         <div>
             <div class="articleCard">
